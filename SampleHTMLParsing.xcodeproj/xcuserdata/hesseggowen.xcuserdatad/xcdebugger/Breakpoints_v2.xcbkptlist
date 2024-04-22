@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0705BB2F-4641-47AA-9C82-3EAEDCE49C81"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BBDFE375-821A-4CA2-9BAF-5088BB1E55AD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SampleHTMLParsing/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "BBDFE375-821A-4CA2-9BAF-5088BB1E55AD - 1b4b7f94dae4e3cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in SampleHTMLParsing.ContentView.body.getter : some"
+                  moduleName = "SampleHTMLParsing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hesseggowen/Desktop/Owen_Personal/SampleHTMLParsing/SampleHTMLParsing/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "BBDFE375-821A-4CA2-9BAF-5088BB1E55AD - 4df01bf895c180e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;SampleHTMLParsing.Row&gt;) -&gt; () in closure #2 () -&gt; () in SampleHTMLParsing.ContentView.body.getter : some"
+                  moduleName = "SampleHTMLParsing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hesseggowen/Desktop/Owen_Personal/SampleHTMLParsing/SampleHTMLParsing/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "40D628CB-1843-4D31-BBCE-961795E29DD4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SampleHTMLParsing/Network/Services/RestServices.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "test(start:end:stationCode:stationName:lineNumber:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "50D9F7F1-E104-4766-A94C-D693451004F9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SampleHTMLParsing/Network/Network/BaseNetworking.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "noParamRequest(endPoint:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "50D9F7F1-E104-4766-A94C-D693451004F9 - af9a01a97f613169"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SampleHTMLParsing.BaseNetworking.noParamRequest(endPoint: SampleHTMLParsing.API, completion: (Swift.Array&lt;SampleHTMLParsing.Row&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SampleHTMLParsing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hesseggowen/Desktop/Owen_Personal/SampleHTMLParsing/SampleHTMLParsing/Network/Network/BaseNetworking.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "928">
+               </Location>
+               <Location
+                  uuid = "50D9F7F1-E104-4766-A94C-D693451004F9 - 16598ab85281c8f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in SampleHTMLParsing.BaseNetworking.noParamRequest(endPoint: SampleHTMLParsing.API, completion: (Swift.Array&lt;SampleHTMLParsing.Row&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SampleHTMLParsing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hesseggowen/Desktop/Owen_Personal/SampleHTMLParsing/SampleHTMLParsing/Network/Network/BaseNetworking.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "256">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B62163AE-16B6-4FBE-BEDF-DD83576FEDAB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SampleHTMLParsing/Network/Network/BaseNetworking.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "BaseNetworking"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA1915C5-3559-418E-9963-80D87DB4F7E6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SampleHTMLParsing/Network/Network/BaseNetworking.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "noParamRequest(endPoint:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
