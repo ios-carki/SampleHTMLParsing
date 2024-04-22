@@ -27,6 +27,8 @@
 		D9DF48762BD5FB7000D050D1 /* Subway.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DF48752BD5FB7000D050D1 /* Subway.swift */; };
 		D9DF48792BD6257A00D050D1 /* XMLCoder in Frameworks */ = {isa = PBXBuildFile; productRef = D9DF48782BD6257A00D050D1 /* XMLCoder */; };
 		D9DF487C2BD6306A00D050D1 /* SWXMLHash in Frameworks */ = {isa = PBXBuildFile; productRef = D9DF487B2BD6306A00D050D1 /* SWXMLHash */; };
+		D9DF48852BD659CF00D050D1 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DF48842BD659CF00D050D1 /* SplashView.swift */; };
+		D9DF48872BD65B9200D050D1 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DF48862BD65B9200D050D1 /* SplashViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		D9DF48712BD5F0B000D050D1 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 		D9DF48732BD5F0EC00D050D1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		D9DF48752BD5FB7000D050D1 /* Subway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subway.swift; sourceTree = "<group>"; };
+		D9DF48842BD659CF00D050D1 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		D9DF48862BD65B9200D050D1 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 		D9DF47892BD5E6A200D050D1 /* SampleHTMLParsing */ = {
 			isa = PBXGroup;
 			children = (
+				D9DF487D2BD6596400D050D1 /* Presentation */,
 				D9DF48702BD5F09F00D050D1 /* Helper */,
 				D9DF486F2BD5F09800D050D1 /* Resources */,
 				D9DF486E2BD5F02100D050D1 /* Info.plist */,
@@ -194,6 +199,63 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
+		D9DF487D2BD6596400D050D1 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				D9DF48802BD6597A00D050D1 /* Main */,
+				D9DF487F2BD6597400D050D1 /* Onboarding */,
+				D9DF487E2BD6596C00D050D1 /* Splash */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		D9DF487E2BD6596C00D050D1 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				D9DF48842BD659CF00D050D1 /* SplashView.swift */,
+				D9DF48862BD65B9200D050D1 /* SplashViewModel.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		D9DF487F2BD6597400D050D1 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		D9DF48802BD6597A00D050D1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D9DF48832BD6598800D050D1 /* Setting */,
+				D9DF48822BD6598300D050D1 /* Profile */,
+				D9DF48812BD6597F00D050D1 /* Home */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D9DF48812BD6597F00D050D1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D9DF48822BD6598300D050D1 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D9DF48832BD6598800D050D1 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -277,10 +339,12 @@
 			files = (
 				D9DF47A72BD5E99F00D050D1 /* AppEnvironment.swift in Sources */,
 				D9DF48182BD5E9AB00D050D1 /* RestServices.swift in Sources */,
+				D9DF48852BD659CF00D050D1 /* SplashView.swift in Sources */,
 				D9DF47A82BD5E99F00D050D1 /* RestEnvironment.swift in Sources */,
 				D9DF478D2BD5E6A200D050D1 /* ContentView.swift in Sources */,
 				D9DF481A2BD5E9AB00D050D1 /* RequestWrapper.swift in Sources */,
 				D9DF478B2BD5E6A200D050D1 /* SampleHTMLParsingApp.swift in Sources */,
+				D9DF48872BD65B9200D050D1 /* SplashViewModel.swift in Sources */,
 				D9DF48762BD5FB7000D050D1 /* Subway.swift in Sources */,
 				D9DF47A62BD5E99F00D050D1 /* API.swift in Sources */,
 				D9DF48192BD5E9AB00D050D1 /* EndPoints.swift in Sources */,
